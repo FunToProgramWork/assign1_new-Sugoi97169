@@ -13,11 +13,16 @@ int lx = (int)random(160,640)+25;
 int ly;
 int rx = lx-25;
 int ry;
+
 void setup(){
     size(640, 480, P2D);
-      
     // Enter Your Setup Code Here
- 
+    bgImg = loadImage("img/bg.png");
+  soilImg = loadImage("img/soil.png");
+  lifeImg= loadImage("img/life.png");
+  soldierImg = loadImage("img/soldier.png");
+  robotImg = loadImage("img/robot.png");
+   ratImg  = loadImage("img/rat.png");
   random = (int)random(4);
    a= (int)random(4);
    switch(random){
@@ -51,13 +56,11 @@ void setup(){
     }
     
  ry = ly-37;
-    noLoop();
 }
 
  
 
 void draw() {
-  
   image(bgImg,0,0);
   image(soilImg, 0,160);
   image(lifeImg,10,10);
@@ -93,9 +96,9 @@ void draw() {
    
 }
 
-function ran(){
+void ran(){
   
- let a = random(4);
+ int a = (int)random(4);
     switch(a){
     case 0:
        sy=160;
