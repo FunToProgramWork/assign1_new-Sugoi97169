@@ -1,9 +1,9 @@
-PImage 'bgImg';
-PImage 'soilImg';
-PImage 'lifeImg';
-PImage 'soldierImg';
-PImage 'robotImg';
-PImage 'ratImg';
+PImage bgImg;
+PImage soilImg;
+PImage lifeImg;
+PImage soldierImg;
+PImage robotImg;
+PImage ratImg;
 int sx =0;
 int sy;
 
@@ -13,19 +13,24 @@ int lx = (int)random(160,640)+25;
 int ly;
 int rx = lx-25;
 int ry;
-void preload(){
+/*void preload(){
  bgImg = loadImage("img/bg.jpg");
   soilImg = loadImage("img/soil.png");
   lifeImg= loadImage("img/life.png");
   soldierImg = loadImage("img/soldier.png");
   robotImg = loadImage("img/robot.png");
    ratImg  = loadImage("img/rat.png");
-}
+}*/
 
 void setup(){
     size(640, 480, P2D);
     // Enter Your Setup Code Here
-   
+    bgImg = loadImage("img/bg.jpg");
+  soilImg = loadImage("img/soil.png");
+  lifeImg= loadImage("img/life.png");
+  soldierImg = loadImage("img/soldier.png");
+  robotImg = loadImage("img/robot.png");
+   ratImg  = loadImage("img/rat.png");
   x = (int)random(4);
    a= (int)random(4);
    switch(x){
