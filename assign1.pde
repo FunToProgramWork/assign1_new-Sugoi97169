@@ -7,7 +7,7 @@ PImage ratImg;
 int sx =0;
 int sy;
 
-int random;
+int x;
 int a;
 int lx = (int)random(160,640)+25;
 int ly;
@@ -23,7 +23,7 @@ void setup(){
   soldierImg = loadImage("img/soldier.png");
   robotImg = loadImage("img/robot.png");
    ratImg  = loadImage("img/rat.png");
-  random = (int)random(4);
+  x = (int)random(4);
    a= (int)random(4);
    switch(random){
     case 0:
