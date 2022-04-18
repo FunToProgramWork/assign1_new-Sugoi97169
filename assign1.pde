@@ -25,7 +25,7 @@ void setup(){
    ratImg  = loadImage("img/rat.png");
   x = (int)random(4);
    a= (int)random(4);
-   switch(random){
+   switch(x){
     case 0:
        sy=160; 
       break;
