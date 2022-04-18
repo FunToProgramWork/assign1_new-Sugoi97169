@@ -56,6 +56,8 @@ void setup(){
     }
     
  ry = ly-37;
+ 
+ print(a);
 }
 
  
