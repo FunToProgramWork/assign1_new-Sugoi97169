@@ -1,4 +1,4 @@
-PImage bgImg;
+
 PImage soilImg;
 PImage lifeImg;
 PImage soldierImg;
