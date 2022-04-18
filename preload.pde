@@ -1,5 +1,5 @@
 /* @pjs preload=
-"img/bg.png,
+"img/bg.jpg,
 img/groundhog.png,
 img/life.png,
 img/robot.png,
