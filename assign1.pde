@@ -1,9 +1,9 @@
-PImage "bgImg";
-PImage "soilImg";
-PImage "lifeImg";
-PImage "soldierImg";
-PImage "robotImg";
-PImage "ratImg";
+PImage 'bgImg';
+PImage 'soilImg';
+PImage 'lifeImg';
+PImage 'soldierImg';
+PImage 'robotImg';
+PImage 'ratImg';
 int sx =0;
 int sy;
 
