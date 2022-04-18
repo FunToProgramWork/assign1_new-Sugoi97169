@@ -17,7 +17,7 @@ int ry;
 void setup(){
     size(640, 480, P2D);
     // Enter Your Setup Code Here
-    bgImg = loadImage("img/bg.g");
+    bgImg = loadImage("img/bg.jpg");
   soilImg = loadImage("img/soil.png");
   lifeImg= loadImage("img/life.png");
   soldierImg = loadImage("img/soldier.png");
