@@ -9,7 +9,7 @@ let sy;
 
 let random;
 let a;
-let lx =random(160,640)+25;
+let lx = 160;
 let ly;
 let rx = lx-25;
 let ry;
@@ -23,8 +23,8 @@ function setup(){
   soldierImg = loadImage("img/soldier.png");
   robotImg = loadImage("img/robot.png");
    ratImg  = loadImage("img/rat.png");
-  random = random(4);
-   a= random(4);
+  random =random(4);
+   a=random(4);
    switch(random){
     case 0:
        sy=160; 
@@ -56,8 +56,6 @@ function setup(){
     }
     
  ry = ly-37;
- 
- document.write(a);
 }
 
  
@@ -100,7 +98,7 @@ function draw() {
 
 function ran(){
   
- let a = random(4);
+ let a =random(4);
     switch(a){
     case 0:
        sy=160;
